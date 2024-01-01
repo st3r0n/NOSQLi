@@ -25,3 +25,8 @@ we can use
 '||1||'
 or 
 this.category == 'fizzy'||'1'=='1'
+
+
+NB--->SUPPOSE SOMETIME WE WANT TO BREAK OUT OF SYNTX OR COMMENT THE REST OF THE PARTS THEM WE MAY USE NULL BYTES AFTER ' THAT WILL INGNORE THE REST OF THE PART
+LIKE %00 CAN BE USED ----> https://insecure-website.com/product/lookup?category=fizzy'%00
+
