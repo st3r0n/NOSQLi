@@ -5,7 +5,7 @@
 ### OPerator INjection
 
 
-##NOSQL SYNTAX NJECTION
+## NOSQL SYNTAX NJECTION
 '"`{
 ;$Foo}
 $Foo \xYZ  -------> if request is from URL 
@@ -30,5 +30,13 @@ this.category == 'fizzy'||'1'=='1'
 NB--->SUPPOSE SOMETIME WE WANT TO BREAK OUT OF SYNTX OR COMMENT THE REST OF THE PARTS THEM WE MAY USE NULL BYTES AFTER ' THAT WILL INGNORE THE REST OF THE PART
 LIKE %00 CAN BE USED ----> https://insecure-website.com/product/lookup?category=fizzy'%00
 
-###NOSQL OPERATOR INJECTION
+### NOSQL OPERATOR INJECTION
+we can make use of followinf operators:
+
+    $where - Matches documents that satisfy a JavaScript expression.
+    $ne - Matches all values that are not equal to a specified value.
+    $in - Matches all of the values specified in an array.
+    $regex - Selects documents where values match a specified regular expression.
+
+
 
