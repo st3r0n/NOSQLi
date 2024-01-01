@@ -37,6 +37,9 @@ we can make use of followinf operators:
     $ne - Matches all values that are not equal to a specified value.
     $in - Matches all of the values specified in an array.
     $regex - Selects documents where values match a specified regular expression.
-
+FOR JSON -------> {"username":{"$ne":"invalid"}}
+FOR URL ---------> username[$ne]=invalid
+if it dont woks change method to POST and content type to json
+try not to use $ne injection alway if you know thd username use it or else if you know part of usernmae then used regex
 
 
